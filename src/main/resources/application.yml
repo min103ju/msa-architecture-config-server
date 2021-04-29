@@ -1,0 +1,13 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: msa-architecture-config-server
+
+  cloud:
+    config:
+      server:
+        #todo create git repository & config.yml
+        git: https://github.com/min103ju/msa.git
+
