@@ -8,6 +8,6 @@ spring:
   cloud:
     config:
       server:
-        #todo create git repository & config.yml
-        git: https://github.com/min103ju/msa.git
+        git:
+          uri: https://github.com/min103ju/msa.git
 
